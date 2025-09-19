@@ -1,0 +1,297 @@
+.story {
+    background: url(./images/background.jpg) no-repeat center center;
+    color: white;
+    width: 100%;
+    background-size: cover;
+}
+
+.slide {
+    width: 100%;
+}
+ion-icon {
+    pointer-events:inherit;
+   }
+
+.slide .swiper {
+    border: 5px solid white;
+}
+/* ..................... cart .......................... */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+  left: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+/* ..................... cart .......................... */
+.total-amt{
+    font-weight: 700;
+}
+
+.box {
+    position: relative;
+    position: fixed;
+    right: -20px;
+    background-color: #D51920;
+    
+}
+
+.cart-count {
+    color: #ffffff;
+    background-color:black;
+    position: absolute;
+    border-radius: 50%;
+    top: -15px;
+    right: 45px;
+    z-index: 50;
+}
+
+#cart-icon {
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+/* ........................................................ */
+.swiper img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.story1 {
+    line-height: 30px;
+}
+
+.detail {
+    background: url(./images/bg2.jpg);
+    color: white;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.67);
+}
+
+.detail h3 {
+    color: red;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.footer {
+    background: #262828;
+    width: 100%;
+}
+
+.detail p {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 23px;
+    color: white !important;
+}
+.dropdown-item{
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.footer img {
+    width: 50%;
+    transition: 0.5s;
+}
+
+address {
+    line-height: 29px;
+}
+
+li a:hover {
+    color: #D51920 !important;
+}
+
+.hover a {
+    border: 3px solid #D51920;
+    padding: 5px 15px;
+    font-size: 18px;
+    transition: 0.6s ease;
+}
+
+.hover a:hover {
+    background-color: #D51920;
+    color: white !important;
+}
+
+.bar a:hover {
+    color: #D51920;
+}
+
+.copy {
+    background-color: black;
+}
+
+.detail img {
+    width: 100%;
+}
+
+.footer img:hover {
+    transform: scale(1.1);
+}
+
+/* ---------------------------------------------------------- */
+.product {
+    background-color: rgba(255, 255, 255, 0.841);
+    position: relative;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(88, 84, 84, 0.527);
+}
+
+.img-box {
+    overflow: hidden;
+
+}
+
+.food-img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    transition: 0.5s;
+}
+
+.food-img:hover {
+    transform: scale(1.2);
+}
+
+.bg {
+    background: url(./images/background.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.add-cart {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(207, 129, 64);
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: 0.5s;
+
+}
+
+.add-cart:hover {
+    background-color: rgb(142, 243, 142);
+    color: rgb(241, 26, 26);
+}
+
+.food-type {
+    position: absolute;
+    width: 20px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.food-type img {
+    width: 100%;
+}
+
+/* ------------------------------------------------------------ */
+.cart {
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    width: 300px;
+    height: 100vh;
+    overflow-x: scroll;
+   
+    background-color: rgba(255, 255, 255, 1);
+    transition: 0.7s;
+}
+
+.cart-active {
+    top: 0;
+    right: 0;
+}
+
+.cart-img {
+    width: 100%;
+}
+
+.cart-title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cart-box {
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+    grid-template-columns: 25% 57% 18%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.61);
+}
+
+.cart-qty {
+    width: 50px;
+    text-align: center;
+}
+
+.cart-food-title {
+    color: #D51920;
+    font-weight: 700;
+}
+.cart-price{
+font-weight: 500;
+}
+.trash {
+    color: #D51920;
+    margin-bottom: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+}
+
+.cart .btn {
+    margin-left: 50%;
+    transform: translate(-50%);
+  
+}
+/* *****************************************************  */
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+label{
+    display: inline-block;
+    width: 200px;
+}
+form button{
+    margin-left: 50%;
+    transform: translate(-50%);
+}

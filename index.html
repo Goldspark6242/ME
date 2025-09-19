@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark position-relative bg-secondary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img src="./images/Meatandeat_landscape_logo.png" width="200px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mx-3 mb-lg-0 bar">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#story">Our Story</a>
+                    </li>
+                    <li class="nav-item dropdown active mx-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#burger">Burger</a></li>
+                            <li><a class="dropdown-item" href="#f_chicken">Fried Chicken</a></li>
+                            <li><a class="dropdown-item" href="#combo">combo</a></li>
+                            <li><a class="dropdown-item" href="#">Smoothy</a></li>
+                            <li><a class="dropdown-item" href="#">Meals & Soft Drinks</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#">Locate Us</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="#footer">Franchise Enquiry</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="cart-count p-1">0</div>
+                <ion-icon id="cart-icon" name="cart-outline"></ion-icon>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-title">Cart Items</div>
+            <div class="cart-content py-4">
+                <!-- <div class="cart-box">
+                    <img src="./images/Burger/ME_Chicken_Burger.png" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-food-title">ME Chicken Burger</div>
+                        <div class="price-box d-flex justify-content-between my-2">
+                            <div class="cart-price">Rs:150</div>
+                            <div class="cart-amt">Rs:150</div>
+                        </div>
+                        <input type="number" class="cart-qty" value="1">
+
+                    </div>
+                    <ion-icon name="trash-outline" class="trash"></ion-icon>
+                </div> -->
+            </div>
+            <div class="total d-flex justify-content-end pe-3 my-3  ">
+                <div class="total-title">Total :</div>
+                <div class="total-amt pe-4"> Rs.0</div>
+            </div>
+            <button id="btn" class="btn bg-dark text-white ">Place Order</button>
+            <ion-icon name="close-outline" class="close" id="close"></ion-icon>
+        </div>
+    </nav>
+    <button onclick="topFunction()" id="myBtn" >Top</button>
+    <div class="swiper ">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/01-min.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/02-min.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/03-min.png" alt=""></div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid story " id="story">
+        <div class="row">
+            <div class="col col-lg-6 story1 m-auto py-3 p-lg-6">
+                <h1>OUR STORY</h1>
+                <P> ME is the brand of KAVI Group. <br> Meat & Eat is a farm to fork Indian chain of quick service (QSR)
+                    & family restaurants serving fresh and hygienic veg & non-veg fast food options to customers.
+                    Started in 2013, Meat & Eat fine-tuned the operations in the areas of products, delivery, restaurant
+                    layout, franchisee model, advertising & marketing strategy etc., within 6 months, hence being able
+                    to bring consistency across all franchises.
+                    A well-trained team handles the kitchen which produces about 50 tonnes of heat/fry-and-serve
+                    products per month. Significant investment has been made in product research and development. Today
+                    the company has 150+ outlets </P>
+                <a href="">Read more...</a>
+            </div>
+            <div class="col col-lg-6">
+                <div class="slide py-3 p-lg-5">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./images/facebook design001.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./images/facebook design002.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="./images/facebook design003.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid detail d-flex justify-content-center align-items-center py-1 py-lg-5">
+        <div class="card col-lg-9 my-lg-5 ">
+
+
+
+            <div class="row">
+                <div class="col-12  col-lg-6 m-auto">
+                    <img src="./images/DB-Grilled.png" alt="" class="">
+                </div>
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center text-center">
+                    <h3>DB Grilled burger</h3>
+                    <p>2 pieces Boneless marinated chicken fillet grilled, dressed with cheese, lettuce, Tandoori mayo
+                        and papa bun</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="f_chicken" class="bg">
+        <div class="container py-5">
+            <h1 class="text-center text-white">FRIED CHICKEN</h1>
+            <div class="row py-5 justify-content-between">
+                <div class="col-lg-3 col-md-5  product my-3">
+                    <div class="img-box">
+                        <img src="./images/Fried Chicken/Classic_Fried_Chicken_Bucket.png" class="food-img">
+                    </div>
+                    <h2 class="food-title">Fried Chicken</h2>
+                    <span class="food-price">Rs.600</span>
+
+                    <ion-icon title="Add To Cart" name="cart-outline" class="add-cart"></ion-icon>
+                    <div class="food-type">
+                        <img src="./images/Beverages/nonveg.png">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 product my-3">
+                    <div class="img-box">
+                        <img src="./images/Fried Chicken/Boneless_Strips_(10pcs).png" class="food-img">
+                    </div>
+                    <h2 class="food-title">Boneless strips</h2>
+                    <span class="food-price">Rs.600</span>
+                    <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+                    <div class="food-type">
+                        <img src="./images/Beverages/nonveg.png">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 product my-3">
+                    <div class="img-box">
+                        <img src="./images/Fried Chicken/Drumstick_Bucket.png" class="food-img">
+                    </div>
+                    <h2 class="food-title">Drumstick Bucket</h2>
+                    <span class="food-price">Rs.600</span>
+                    <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+                    <div class="food-type">
+                        <img src="./images/Beverages/nonveg.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="burger" class="bg">
+        <div class="container py-5">
+            <h1 class="text-center text-white">BURGERS</h1>
+            <div class="row  py-5 justify-content-between">
+                <div class="col-lg-3 col-md-5 product my-3">
+                    <div class="img-box">
+                        <img src="./images/Burger/Mac_&_Cheese_Burger.png" class="food-img">
+                    </div>
+                    <h2 class="food-title">Mac & Cheese Burger</h2>
+                    <span class="food-price">Rs.600</span>
+                    <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+                    <div class="food-type">
+                        <img src="./images/Beverages/nonveg.png">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 product my-3">
+                    <div class="img-box">
+                        <img src="./images/Burger/john 001.png" class="food-img">
+                    </div>
+                    <h2 class="food-title">ME Burger</h2>
+                    <span class="food-price">Rs.600</span>
+                    <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+                    <div class="food-type">
+                        <img src="./images/Beverages/nonveg.png">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 product my-3">
+                    <div class="img-box">
+                        <img src="./images/Burger/Classic_Chicken_Burger.png" class="food-img">
+                    </div>
+                    <h2 class="food-title">Classic Chicken Burger</h2>
+                    <span class="food-price">Rs.600</span>
+                    <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+                    <div class="food-type">
+                        <img src="./images/Beverages/nonveg.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="combo" class="bg">
+        <div class="container py-5">
+            <h1 class="text-center text-white">BURGERS</h1>
+            <div class="row  py-5 justify-content-between">
+                <div class="col-lg-3 col-md-5 product my-3">
+                    <div class="img-box">
+                        <img src="./images/Combo/ME_5_(_Veg_Super_Twin_Burger_+_F.Fries_+_Drink_).png" class="food-img">
+                    </div>
+                    <h2 class="food-title">Veg Super Twin Burger</h2>
+                    <span class="food-price">Rs.600</span>
+                    <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+                    <div class="food-type">
+                        <img src="./images/Beverages/veg.png">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 product my-3">
+                    <div class="img-box">
+                        <img src="./images/Combo/Fried_Chicken_+_French_Fries.png" class="food-img">
+                    </div>
+                    <h2 class="food-title">Fried Chicken + Fries </h2>
+                    <span class="food-price">Rs.600</span>
+                    <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+                    <div class="food-type">
+                        <img src="./images/Beverages/nonveg.png">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 product my-3">
+                    <div class="img-box">
+                        <img src="./images/Combo/ME_9_(_Classic_Chicken_Burger_+_C.Fries_+_Drink_).png"
+                            class="food-img">
+                    </div>
+                    <h2 class="food-title">Classic Chicken Burger + C.Fries</h2>
+                    <span class="food-price">Rs.600</span>
+                    <ion-icon name="cart-outline" class="add-cart"></ion-icon>
+                    <div class="food-type">
+                        <img src="./images/Beverages/nonveg.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid footer" id="footer">
+        <div class="container">
+            <div class="row text-white text-center py-5">
+                <div class="col  col-lg-4 m-auto">
+                    <h3>OTHER FRANCHISES</h3>
+                    <img src="./images/kebabistan-1.png" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <h2>CONTACT</h2>
+                    <h3>Meat and Eat</h3>
+                    <address>Old No 3/3, New No 7, Ground Floor, <br>Palandiamman Koil Street, <br>Adambakkam, Chennai -
+                        600088. <br>Phone:044-48632925
+                        <br>Mobile: +91 6383415532.
+                    </address>
+                </div>
+                <div class="col col-lg-4 m-auto">
+                    <h2>RESTAURANT</h2>
+                    <li> <a href="">LOCATION</a></li>
+                    <li><a href="">MENU</a></li>
+                    <li><a href="">FRANCHISES ENQUIRY</a></li>
+                    <li class="hover p-3"><a href="">SEND FEEDBACK</a></li>
+                    <li class="hover p-3"><a href="">CONTACT US</a></li>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid copy text-white text-center py-4">
+        <p>All rights reserved |<span>Abi Group &#169; 2022 | Designed by <span>THANGARAJ</span></span></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+</body>
+
+</html>
